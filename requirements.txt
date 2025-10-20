@@ -1,0 +1,33 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+requests>=2.26.0
+
+# LLM API clients (optional - install as needed)
+openai>=1.0.0
+anthropic>=0.7.0
+google-generativeai>=0.3.0
+
+# Agentic methods (optional - for ReAct/RAG)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+langchain-community>=0.0.20
+
+# RAG dependencies (optional)
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+tiktoken>=0.5.0
+
+# AST-based analysis (optional)
+javalang>=0.13.0
+tree-sitter>=0.20.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
