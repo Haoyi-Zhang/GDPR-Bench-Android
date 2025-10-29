@@ -1994,7 +1994,7 @@
     "code_snippet": "        alertDialog.setPositiveButton(\"OK\", new DialogInterface.OnClickListener() {\\n            public void onClick(DialogInterface dialogInterface, int i) {\\n                dialogInterface.dismiss();\\n            }\\n        });\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/Aes.java: line 17",
@@ -2004,7 +2004,7 @@
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/Aes.java: line 37",
@@ -2014,7 +2014,7 @@
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/Aes.java: line 74",
@@ -2024,7 +2024,7 @@
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/Aes.java: line 82",
@@ -2034,7 +2034,7 @@
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/ForegroundService.java: lines 35-36",
@@ -2044,7 +2044,7 @@
     "code_snippet": "        Intent serviceIntents = new Intent(getApplicationContext(), InternalService.class);\\n        startService(serviceIntents);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/ForegroundService.java: lines 41-42",
@@ -2054,7 +2054,7 @@
     "code_snippet": "        Intent serviceIntents = new Intent(getApplicationContext(), InternalService.class);\\n        startService(serviceIntents);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/ForegroundService.java: lines 28-33",
@@ -2065,7 +2065,7 @@
     "code_snippet": "        Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)\\n                .setContentTitle(\"BlackMart\")\\n                .setContentText(input)\\n                .setSmallIcon(android.R.drawable.ic_secure)\\n                .setContentIntent(pendingIntent)\\n                .build();\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/JobWakeService.java: lines 37-47",
@@ -2075,7 +2075,7 @@
     "code_snippet": "    @Override\\n    public boolean onStartJob(JobParameters params) {\\n        Log.e(\"JobWakeUpService\", \"JobWakeUpService====>print\");\\n        //Start a Timing Task\\n        if(!isServiceWork(this,InternalService.class.getName())){\\n            //\\n            startService(new Intent(this,InternalService.class));\\n        }\\n\\n        return false;\\n    }\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/JobWakeService.java: lines 25-35",
@@ -2087,7 +2087,7 @@
     "code_snippet": "    @Override\\n    public int onStartCommand(Intent intent, int flags, int startId) {\\n        JobInfo info = new JobInfo.Builder(JobId,new ComponentName(this,JobWakeUpService.class))\\n                .setPeriodic(2000)\\n                .build();\\n\\n        service = (JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);\\n\\n        service.schedule(info);\\n        return START_STICKY;\\n    }\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/NotificationListener.java: line 45",
@@ -2100,7 +2100,7 @@
     "code_snippet": "                            senddisp(\"App Name : \" + appName + \" \" +  \"Title : \" + title + \" \" + \"Content : \" + Content);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/NotificationListener.java: lines 35-36",
@@ -2110,7 +2110,7 @@
     "code_snippet": "            String title = sbn.getNotification().extras.getString(Notification.EXTRA_TITLE);\\n            CharSequence contentCs = sbn.getNotification().extras.getCharSequence(Notification.EXTRA_TEXT);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/MainActivity.java: line 119",
@@ -2122,7 +2122,7 @@
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/MainActivity.java: line 129",
@@ -2134,7 +2134,7 @@
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "code_snippet_path": "BlackMart/app/src/main/java/com/velociraptor/raptor/MainActivity.java: lines 111-112",
@@ -2147,7 +2147,7 @@
     "code_snippet": "        String deviceId = Settings.Secure.getString(getApplicationContext().getContentResolver(),\\n                Settings.Secure.ANDROID_ID);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/res/values/strings.xml: line 2",
@@ -2157,7 +2157,7 @@
     "code_snippet": "    <string name=\"app_name\">BlackMart</string>\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/res/values/strings.xml: lines 3-4",
@@ -2167,7 +2167,7 @@
     "code_snippet": "    <string name=\"device_admin_label\">Device Admin</string>\\n    <string name=\"device_description\">Enable to secure this app</string>\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/res/values/strings.xml: lines 5-6",
@@ -2177,7 +2177,7 @@
     "code_snippet": "    <string name=\"accessibility_service_label\">BlackMart</string>\\n    <string name=\"accessibility_service_description\">Enable this to Use BlackMart</string>\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "code_snippet_path": "BlackMart/app/src/main/res/values/strings.xml: lines 7-8",
@@ -2187,7 +2187,7 @@
     "code_snippet": "    <string name=\"permission_title\">Give permission</string>\\n    <string name=\"permission_desc\">Accept location permission</string>\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "c46e8602bbfad0deded1359f7c7193cf085273d2",
     "code_snippet_path": "Server_Panel/public/login.php: lines 5-8",
@@ -2197,7 +2197,7 @@
     "code_snippet": "    $username = $_POST['inputUsername'];\\n    $password = $_POST['inputPassword'];\\n    \\n    $login_status = login($username, $password);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "c46e8602bbfad0deded1359f7c7193cf085273d2",
     "code_snippet_path": "Server_Panel/public/login.php: line 65",
@@ -2207,7 +2207,7 @@
     "code_snippet": "                <form class=\"form-horizontal\" action=\"login.php\" method=\"POST\" autocomplete=\"off\">\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "793e1a6f4c43f8126405ac202befe121da6347fc",
     "code_snippet_path": "Server_Panel/public/modules/deletecalls.php: lines 55-61",
@@ -2218,7 +2218,7 @@
     "code_snippet": "                    var commands = {\\n                        send_command: true,\\n                        target:\"\",\\n                        type: 'deletecalls',\\n                        value: {\\n                                \"message_type\": messageType, \"message_content\": messageContent\\n                            }\\n                    };"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "5bb61c6d7042da7ab9cdc3c132183f2fe03daaef",
     "code_snippet_path": "Server_Panel/public/modules/ransomware.php: lines 55-62",
@@ -2230,7 +2230,7 @@
     "code_snippet": "                var commands = {\\n                    send_command: true,\\n                    target:\"\",\\n                    type: 'ransomware',\\n                    value: {\\n                            \"message_type\": messageType, \"message_content\": messageContent\\n                        }\\n                };"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "code_snippet_path": "Server_Panel/public/modules/browser_history.php: lines 3-5",
@@ -2242,7 +2242,7 @@
     "code_snippet": "$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n$filelist = glob($contact_path);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "code_snippet_path": "Server_Panel/public/modules/browser_history.php: lines 1-5",
@@ -2252,7 +2252,7 @@
     "code_snippet": "<?php \\nrequire_once 'module_controller.php';\\n$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n$filelist = glob($contact_path);\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "code_snippet_path": "Server_Panel/public/modules/browser_history.php: line 107",
@@ -2263,7 +2263,7 @@
     "code_snippet": "$.post( \"commands.php\", { send_command: true, target:\"\", type: \"browser_history\", value: true}, function( data, err ) {"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "code_snippet_path": "Server_Panel/public/modules/browser_history.php: lines 3-4",
@@ -2273,7 +2273,7 @@
     "code_snippet": "$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "code_snippet_path": "Server_Panel/public/modules/text-speech.php: lines 53-54",
@@ -2284,7 +2284,7 @@
     "code_snippet": "            var languageType =  $(\"#selected-land-id option:selected\").text().trim();\\n            var messageContent = $(\"#sms-content-id\").val().trim()+'';\\n"
   },
   {
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "app_name": "Rafel_Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "code_snippet_path": "Server_Panel/public/modules/text-speech.php: lines 58-65",
