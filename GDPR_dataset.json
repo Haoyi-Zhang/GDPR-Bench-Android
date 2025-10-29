@@ -15850,7 +15850,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "576652d524cef38b5526861a724f3f9b08b8b9a4a3d06a6888",
     "violated_article": 6,
     "code_snippet": "            ImageReader reader = ImageReader.newInstance(width, height, ImageFormat.JPEG, 1);\\n            List<Surface> outputSurfaces = new ArrayList<Surface>(2);\\n            outputSurfaces.add(reader.getSurface());\\n            outputSurfaces.add(new Surface(textureView.getSurfaceTexture()));\\n",
@@ -15859,7 +15859,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "576652d524cef38b5526861a724f3f9b08b8b9a4a3d06a6888",
     "violated_article": 7,
     "code_snippet": "            ImageReader reader = ImageReader.newInstance(width, height, ImageFormat.JPEG, 1);\\n            List<Surface> outputSurfaces = new ArrayList<Surface>(2);\\n            outputSurfaces.add(reader.getSurface());\\n            outputSurfaces.add(new Surface(textureView.getSurfaceTexture()));\\n",
@@ -15868,7 +15868,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "576652d524cef38b5526861a724f3f9b08b8b9a4a3d06a6888",
     "violated_article": 12,
     "code_snippet": "                void save(byte[] bytes) {\\n                    File file12 = getOutputMediaFile();\\n                    OutputStream outputStream = null;\\n                    try {\\n                        outputStream = new FileOutputStream(file12);\\n                        outputStream.write(bytes);\\n                    } catch (Exception e) {\\n                        e.printStackTrace();\\n                    } finally {\\n                        try {\\n                            if (outputStream != null)\\n                                outputStream.close();\\n                        } catch (Exception e) {\\n                        }\\n                    }\\n                }\\n",
@@ -15877,7 +15877,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "576652d524cef38b5526861a724f3f9b08b8b9a4a3d06a6888",
     "violated_article": 13,
     "code_snippet": "                void save(byte[] bytes) {\\n                    File file12 = getOutputMediaFile();\\n                    OutputStream outputStream = null;\\n                    try {\\n                        outputStream = new FileOutputStream(file12);\\n                        outputStream.write(bytes);\\n                    } catch (Exception e) {\\n                        e.printStackTrace();\\n                    } finally {\\n                        try {\\n                            if (outputStream != null)\\n                                outputStream.close();\\n                        } catch (Exception e) {\\n                        }\\n                    }\\n                }\\n",
@@ -15886,7 +15886,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "576652d524cef38b5526861a724f3f9b08b8b9a4a3d06a6888",
     "violated_article": 17,
     "code_snippet": "                void save(byte[] bytes) {\\n                    File file12 = getOutputMediaFile();\\n                    OutputStream outputStream = null;\\n                    try {\\n                        outputStream = new FileOutputStream(file12);\\n                        outputStream.write(bytes);\\n                    } catch (Exception e) {\\n                        e.printStackTrace();\\n                    } finally {\\n                        try {\\n                            if (outputStream != null)\\n                                outputStream.close();\\n                        } catch (Exception e) {\\n                        }\\n                    }\\n                }\\n",
@@ -15895,7 +15895,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 6,
     "code_snippet": "        val cur = ctx.contentResolver.query(ContactsContract.Contacts.CONTENT_URI, null, null, null, ContactsContract.Contacts.DISPLAY_NAME)\\n",
@@ -15904,7 +15904,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 7,
     "code_snippet": "        val cur = ctx.contentResolver.query(ContactsContract.Contacts.CONTENT_URI, null, null, null, ContactsContract.Contacts.DISPLAY_NAME)\\n",
@@ -15913,7 +15913,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 12,
     "code_snippet": "        socket.emit(\"usrData\", JSONObject(data))\\n",
@@ -15922,7 +15922,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 13,
     "code_snippet": "        socket.emit(\"usrData\", JSONObject(data))\\n",
@@ -15931,7 +15931,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 14,
     "code_snippet": "        socket.emit(\"usrData\", JSONObject(data))\\n",
@@ -15940,7 +15940,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 15,
     "code_snippet": "        return Gson().toJson(list)\\n",
@@ -15949,7 +15949,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 25,
     "code_snippet": "        socket.emit(\"usrData\", JSONObject(data))\\n",
@@ -15958,7 +15958,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 32,
     "code_snippet": "        socket.emit(\"usrData\", JSONObject(data))\\n",
@@ -15967,7 +15967,7 @@
   },
   {
     "app_name": "Android-RAT---Hawkshaw",
-    "repo_url": "https://github.com/Deepak263018/Android-RAT---Hawkshaw",
+    "repo_url": "https://github.com/saksham2410/Android-RAT---Hawkshaw",
     "Commit_ID": "d524cef38b5526861a724f3f9b08b8b9a4a3d06a",
     "violated_article": 25,
     "code_snippet": "        android:allowBackup=\"true\"\\n        android:fullBackupContent=\"true\"\\n",
