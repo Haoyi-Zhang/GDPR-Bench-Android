@@ -3466,7 +3466,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 32,
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n",
@@ -3475,7 +3475,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 32,
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n",
@@ -3484,7 +3484,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 32,
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n",
@@ -3493,7 +3493,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 32,
     "code_snippet": "        Cipher cipher = Cipher.getInstance(\"AES\");\\n",
@@ -3502,7 +3502,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 6,
     "code_snippet": "        Intent serviceIntents = new Intent(getApplicationContext(), InternalService.class);\\n        startService(serviceIntents);\\n",
@@ -3511,7 +3511,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 6,
     "code_snippet": "        Intent serviceIntents = new Intent(getApplicationContext(), InternalService.class);\\n        startService(serviceIntents);\\n",
@@ -3520,7 +3520,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 12,
     "code_snippet": "        Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)\\n                .setContentTitle(\"BlackMart\")\\n                .setContentText(input)\\n                .setSmallIcon(android.R.drawable.ic_secure)\\n                .setContentIntent(pendingIntent)\\n                .build();\\n",
@@ -3529,7 +3529,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 13,
     "code_snippet": "        Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)\\n                .setContentTitle(\"BlackMart\")\\n                .setContentText(input)\\n                .setSmallIcon(android.R.drawable.ic_secure)\\n                .setContentIntent(pendingIntent)\\n                .build();\\n",
@@ -3538,7 +3538,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 5,
     "code_snippet": "    @Override\\n    public boolean onStartJob(JobParameters params) {\\n        Log.e(\"JobWakeUpService\", \"JobWakeUpService====>print\");\\n        //Start a Timing Task\\n        if(!isServiceWork(this,InternalService.class.getName())){\\n            //\\n            startService(new Intent(this,InternalService.class));\\n        }\\n\\n        return false;\\n    }\\n",
@@ -3547,7 +3547,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 6,
     "code_snippet": "    @Override\\n    public int onStartCommand(Intent intent, int flags, int startId) {\\n        JobInfo info = new JobInfo.Builder(JobId,new ComponentName(this,JobWakeUpService.class))\\n                .setPeriodic(2000)\\n                .build();\\n\\n        service = (JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);\\n\\n        service.schedule(info);\\n        return START_STICKY;\\n    }\\n",
@@ -3556,7 +3556,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 13,
     "code_snippet": "    @Override\\n    public int onStartCommand(Intent intent, int flags, int startId) {\\n        JobInfo info = new JobInfo.Builder(JobId,new ComponentName(this,JobWakeUpService.class))\\n                .setPeriodic(2000)\\n                .build();\\n\\n        service = (JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);\\n\\n        service.schedule(info);\\n        return START_STICKY;\\n    }\\n",
@@ -3565,7 +3565,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 25,
     "code_snippet": "    @Override\\n    public int onStartCommand(Intent intent, int flags, int startId) {\\n        JobInfo info = new JobInfo.Builder(JobId,new ComponentName(this,JobWakeUpService.class))\\n                .setPeriodic(2000)\\n                .build();\\n\\n        service = (JobScheduler) getSystemService(Context.JOB_SCHEDULER_SERVICE);\\n\\n        service.schedule(info);\\n        return START_STICKY;\\n    }\\n",
@@ -3574,7 +3574,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "violated_article": 6,
     "code_snippet": "                            senddisp(\"App Name : \" + appName + \" \" +  \"Title : \" + title + \" \" + \"Content : \" + Content);\\n",
@@ -3583,7 +3583,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "violated_article": 9,
     "code_snippet": "            String title = sbn.getNotification().extras.getString(Notification.EXTRA_TITLE);\\n            CharSequence contentCs = sbn.getNotification().extras.getCharSequence(Notification.EXTRA_TEXT);\\n",
@@ -3592,7 +3592,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "violated_article": 12,
     "code_snippet": "                            senddisp(\"App Name : \" + appName + \" \" +  \"Title : \" + title + \" \" + \"Content : \" + Content);\\n",
@@ -3601,7 +3601,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "violated_article": 25,
     "code_snippet": "                            senddisp(\"App Name : \" + appName + \" \" +  \"Title : \" + title + \" \" + \"Content : \" + Content);\\n",
@@ -3610,7 +3610,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6398b6ccb48b5039c2ddfc7441ce2adbcc550054",
     "violated_article": 32,
     "code_snippet": "                            senddisp(\"App Name : \" + appName + \" \" +  \"Title : \" + title + \" \" + \"Content : \" + Content);\\n",
@@ -3619,7 +3619,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 6,
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n",
@@ -3628,7 +3628,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 9,
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n",
@@ -3637,7 +3637,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 14,
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n",
@@ -3646,7 +3646,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 6,
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n",
@@ -3655,7 +3655,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 9,
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n",
@@ -3664,7 +3664,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 14,
     "code_snippet": "                senddisp(\"Victim Connected : ID  ----->  \"  + deviceId);\\n",
@@ -3673,7 +3673,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 5,
     "code_snippet": "        String deviceId = Settings.Secure.getString(getApplicationContext().getContentResolver(),\\n                Settings.Secure.ANDROID_ID);\\n",
@@ -3682,7 +3682,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 6,
     "code_snippet": "        String deviceId = Settings.Secure.getString(getApplicationContext().getContentResolver(),\\n                Settings.Secure.ANDROID_ID);\\n",
@@ -3691,7 +3691,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 9,
     "code_snippet": "        String deviceId = Settings.Secure.getString(getApplicationContext().getContentResolver(),\\n                Settings.Secure.ANDROID_ID);\\n",
@@ -3700,7 +3700,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "a2a556c05ffa309aca8068a21194b1fcd5a0e729",
     "violated_article": 14,
     "code_snippet": "        String deviceId = Settings.Secure.getString(getApplicationContext().getContentResolver(),\\n                Settings.Secure.ANDROID_ID);\\n",
@@ -3709,7 +3709,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 5,
     "code_snippet": "    <string name=\"app_name\">BlackMart</string>\\n",
@@ -3718,7 +3718,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 6,
     "code_snippet": "    <string name=\"device_admin_label\">Device Admin</string>\\n    <string name=\"device_description\">Enable to secure this app</string>\\n",
@@ -3727,7 +3727,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 13,
     "code_snippet": "    <string name=\"accessibility_service_label\">BlackMart</string>\\n    <string name=\"accessibility_service_description\">Enable this to Use BlackMart</string>\\n",
@@ -3736,7 +3736,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "e9da17d17989e484a807fa4c472580c4d8956009",
     "violated_article": 7,
     "code_snippet": "    <string name=\"permission_title\">Give permission</string>\\n    <string name=\"permission_desc\">Accept location permission</string>\\n",
@@ -3745,7 +3745,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "c46e8602bbfad0deded1359f7c7193cf085273d2",
     "violated_article": 32,
     "code_snippet": "    $username = $_POST['inputUsername'];\\n    $password = $_POST['inputPassword'];\\n    \\n    $login_status = login($username, $password);\\n",
@@ -3754,7 +3754,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "c46e8602bbfad0deded1359f7c7193cf085273d2",
     "violated_article": 25,
     "code_snippet": "                <form class=\"form-horizontal\" action=\"login.php\" method=\"POST\" autocomplete=\"off\">\\n",
@@ -3763,7 +3763,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "793e1a6f4c43f8126405ac202befe121da6347fc",
     "violated_article": 6,
     "code_snippet": "                    var commands = {\\n                        send_command: true,\\n                        target:\"\",\\n                        type: 'deletecalls',\\n                        value: {\\n                                \"message_type\": messageType, \"message_content\": messageContent\\n                            }\\n                    };",
@@ -3772,7 +3772,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "793e1a6f4c43f8126405ac202befe121da6347fc",
     "violated_article": 32,
     "code_snippet": "                    var commands = {\\n                        send_command: true,\\n                        target:\"\",\\n                        type: 'deletecalls',\\n                        value: {\\n                                \"message_type\": messageType, \"message_content\": messageContent\\n                            }\\n                    };",
@@ -3781,7 +3781,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "5bb61c6d7042da7ab9cdc3c132183f2fe03daaef",
     "violated_article": 6,
     "code_snippet": "                var commands = {\\n                    send_command: true,\\n                    target:\"\",\\n                    type: 'ransomware',\\n                    value: {\\n                            \"message_type\": messageType, \"message_content\": messageContent\\n                        }\\n                };",
@@ -3790,7 +3790,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "5bb61c6d7042da7ab9cdc3c132183f2fe03daaef",
     "violated_article": 5,
     "code_snippet": "                var commands = {\\n                    send_command: true,\\n                    target:\"\",\\n                    type: 'ransomware',\\n                    value: {\\n                            \"message_type\": messageType, \"message_content\": messageContent\\n                        }\\n                };",
@@ -3799,7 +3799,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "5bb61c6d7042da7ab9cdc3c132183f2fe03daaef",
     "violated_article": 32,
     "code_snippet": "                var commands = {\\n                    send_command: true,\\n                    target:\"\",\\n                    type: 'ransomware',\\n                    value: {\\n                            \"message_type\": messageType, \"message_content\": messageContent\\n                        }\\n                };",
@@ -3808,7 +3808,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 6,
     "code_snippet": "$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n$filelist = glob($contact_path);\\n",
@@ -3817,7 +3817,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 5,
     "code_snippet": "$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n$filelist = glob($contact_path);\\n",
@@ -3826,7 +3826,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 12,
     "code_snippet": "<?php \\nrequire_once 'module_controller.php';\\n$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n$filelist = glob($contact_path);\\n",
@@ -3835,7 +3835,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 13,
     "code_snippet": "$.post( \"commands.php\", { send_command: true, target:\"\", type: \"browser_history\", value: true}, function( data, err ) {",
@@ -3844,7 +3844,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 7,
     "code_snippet": "$.post( \"commands.php\", { send_command: true, target:\"\", type: \"browser_history\", value: true}, function( data, err ) {",
@@ -3853,7 +3853,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 25,
     "code_snippet": "$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n$filelist = glob($contact_path);\\n",
@@ -3862,7 +3862,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 32,
     "code_snippet": "$uid_device = $_GET['target'];\\n$contact_path = '../private/storage/browser-history-'.$uid_device.'*';\\n",
@@ -3871,7 +3871,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 5,
     "code_snippet": "            var languageType =  $(\"#selected-land-id option:selected\").text().trim();\\n            var messageContent = $(\"#sms-content-id\").val().trim()+'';\\n",
@@ -3880,7 +3880,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 6,
     "code_snippet": "            var languageType =  $(\"#selected-land-id option:selected\").text().trim();\\n            var messageContent = $(\"#sms-content-id\").val().trim()+'';\\n",
@@ -3889,7 +3889,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 7,
     "code_snippet": "            var commands = {\\n                send_command: true,\\n                target:\"\",\\n                type: 'voice_message',\\n                value: {\\n                        \"message_type\": languageType, \"message_content\": messageContent\\n                    }\\n            };",
@@ -3898,7 +3898,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 12,
     "code_snippet": "            var commands = {\\n                send_command: true,\\n                target:\"\",\\n                type: 'voice_message',\\n                value: {\\n                        \"message_type\": languageType, \"message_content\": messageContent\\n                    }\\n            };",
@@ -3907,7 +3907,7 @@
   },
   {
     "app_name": "Rafel_Rat",
-    "repo_url": "https://github.com/swagkarna/Rafel-Rat",
+    "repo_url": "https://github.com/mbingsdk/Rafel-Rat",
     "Commit_ID": "6190097dbc5ba03cea4d6f0cfaabd276e021abc7",
     "violated_article": 13,
     "code_snippet": "            var commands = {\\n                send_command: true,\\n                target:\"\",\\n                type: 'voice_message',\\n                value: {\\n                        \"message_type\": languageType, \"message_content\": messageContent\\n                    }\\n            };",
